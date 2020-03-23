@@ -8,15 +8,18 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^10.0.0",
     "browserify": "^16.5.0",
     "watchify": "^3.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./node_modules/browserify/bin/cmd.js -t ./node_modules/babelify/index.js src/react/app.js --standalone main | ./node_modules/terser/bin/terser --compress --mangle -o src/static/js/main.js",
+    "dev": "./node_modules/watchify/bin/cmd.js -t ./node_modules/babelify/index.js src/react/app.js --standalone main -o src/static/js/main.js"
   },
   "repository": {
     "type": "git",

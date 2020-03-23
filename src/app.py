@@ -12,5 +12,7 @@ app.mount(static)
 
 @app.route("/")
 async def index(req):
-    res = templates.TemplateResponse("index.html")
+    res = templates.TemplateResponse("index.html", {
+        "message": "This is Nymph-React example."
+    })
     return res

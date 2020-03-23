@@ -29922,12 +29922,12 @@ var Home = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       var message = this.props.message;
-      var nymph = "https://github.com/nymph-project";
+      var yaat = "https://github.com/yaat-project";
       return /*#__PURE__*/_react["default"].createElement("div", {
         className: "container"
       }, /*#__PURE__*/_react["default"].createElement("p", {
         className: "title"
-      }, "Nymph-React Example"), /*#__PURE__*/_react["default"].createElement("img", {
+      }, "Yaat-React Example"), /*#__PURE__*/_react["default"].createElement("img", {
         className: "logo",
         src: "/static/image/react.gif",
         alt: "react-gif"
@@ -29935,8 +29935,8 @@ var Home = /*#__PURE__*/function (_React$Component) {
         className: "message"
       }, message), /*#__PURE__*/_react["default"].createElement("a", {
         className: "link",
-        href: nymph
-      }, "Check out Nymph Github"));
+        href: yaat
+      }, "Check out Yaat Github"));
     }
   }]);
 

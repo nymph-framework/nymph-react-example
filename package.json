@@ -1,7 +1,7 @@
 {
-  "name": "nymph-react-example",
+  "name": "yaat-react-example",
   "version": "1.0.0",
-  "description": "Nymph backend with React frontend example",
+  "description": "Yaat backend with React frontend example",
   "main": "src/react/app.js",
   "dependencies": {
     "react": "^16.13.1",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nymph-framework/nymph-react-example.git"
+    "url": "git+https://github.com/yaat-framework/yaat-react-example.git"
   },
-  "author": "Nymph Framework",
+  "author": "Yaat Framework",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nymph-framework/nymph-react-example/issues"
+    "url": "https://github.com/yaat-framework/yaat-react-example/issues"
   },
-  "homepage": "https://github.com/nymph-framework/nymph-react-example#readme"
+  "homepage": "https://github.com/yaat-framework/yaat-react-example#readme"
 }

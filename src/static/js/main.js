@@ -29922,13 +29922,21 @@ var Home = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       var message = this.props.message;
+      var nymph = "https://github.com/nymph-project";
       return /*#__PURE__*/_react["default"].createElement("div", {
         className: "container"
       }, /*#__PURE__*/_react["default"].createElement("p", {
         className: "title"
-      }, "Nymph-React Example"), /*#__PURE__*/_react["default"].createElement("p", {
+      }, "Nymph-React Example"), /*#__PURE__*/_react["default"].createElement("img", {
+        className: "logo",
+        src: "/static/image/react.gif",
+        alt: "react-gif"
+      }), /*#__PURE__*/_react["default"].createElement("p", {
         className: "message"
-      }, message));
+      }, message), /*#__PURE__*/_react["default"].createElement("a", {
+        className: "link",
+        href: nymph
+      }, "Check out Nymph Github"));
     }
   }]);
 

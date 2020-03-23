@@ -9,9 +9,27 @@ body {
 
 .container {
   display: flex;
+  height: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.container .link {
+  color: #044cb3;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.container .logo {
+  height: 200px;
+}
+
+.container .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .container p {

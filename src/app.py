@@ -4,8 +4,8 @@ from nymph.templating import Jinja2Templates
 
 
 # Configure Static and Template instances
-static = StaticFiles(path="/static", directory="./static")
-templates = Jinja2Templates(directory="templates")
+static = StaticFiles(path="/static", directory="./src/static")
+templates = Jinja2Templates(directory="src/templates")
 
 app = Nymph()
 app.mount(static)

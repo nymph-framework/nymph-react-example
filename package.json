@@ -5,7 +5,8 @@
   "main": "src/react/app.js",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "terser": "^4.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

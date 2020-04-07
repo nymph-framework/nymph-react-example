@@ -4,7 +4,7 @@ from yaat.templating import Jinja2Template
 
 
 # Configure Static and Template instances
-static = StaticFiles(path="/static", directory="./src/static")
+static = StaticFiles(path="/static", directory="src/static")
 templates = Jinja2Template(directory="src/templates")
 
 app = Yaat()
